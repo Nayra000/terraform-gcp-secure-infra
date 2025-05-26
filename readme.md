@@ -21,7 +21,7 @@ This project provisions a **private and secure infrastructure on Google Cloud Pl
 - GCP Load Balancer (Ingress)
 - Kubernetes
 - Redis
-- Python (Flask/FastAPI) demo app
+- Python demo app
 
 ---
 
