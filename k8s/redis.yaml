@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: asia-southeast1-docker.pkg.dev/elated-bus-460108-d0/nayra-repo/redis:latest
+        image: asia-southeast1-docker.pkg.dev/elated-bus-460108-d0/nayra-repo/redis:7-alpine
         ports:
         - containerPort: 6379
 ---
