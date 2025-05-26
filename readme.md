@@ -101,3 +101,7 @@ After deploying the ingress, wait for an external IP:
 kubectl get ingress
 ```
 Access the app via http://<EXTERNAL_IP>
+
+### Note
+## You do not need to pull redix image from public registry like DockerHub and push it again to your private Artifact on goole because Google Cloud mirrors some popular public Docker images (like Redis, NGINX, MySQL, etc.) in its own infrastructure under the domain: gcr.io/google-containers/ These are hosted within Google's network, and accessible to GKE clusters in private subnets that have private_ip_google_access = true, even if those clusters have no public IPs or NAT.
+
