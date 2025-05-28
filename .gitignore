@@ -29,3 +29,5 @@ secrets.tfvars
 
 
 *.json
+
+.terraform.lock.hcl
